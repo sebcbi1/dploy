@@ -10,9 +10,12 @@ Uploads the latest changes by comparing the version on your server with your git
 
 ## Install
 
-git clone into your global node_modules folder. To find its location run the following command :
+git clone into your global node_modules folder and install dependencies :
 ```
 cd $(npm root -g)
+git clone git@github.com:sebcbi1/dploy.git
+cd dploy
+npm install
 ```
 make symbolic link from global bin to ../lib/node_modules/dploy/bin/dploy
 ```
