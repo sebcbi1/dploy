@@ -20,7 +20,7 @@ npm install
 make symbolic link from global bin to ../lib/node_modules/dploy/bin/dploy
 ```
 cd $(npm bin -g)
-ln -s dploy ../lib/node_modules/dploy/bin/dploy
+ln -s ../lib/node_modules/dploy/bin/dploy dploy
 ```
 
 
