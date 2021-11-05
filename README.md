@@ -1,4 +1,6 @@
-![](https://img.shields.io/maintenance/no/2019.svg?style=flat)
+Fork from : https://github.com/lucasmotta/dploy
+
+changes : vanilla javascript and update dependencies
 
 # DPLOY
 
@@ -7,11 +9,26 @@ Uploads the latest changes by comparing the version on your server with your git
 
 
 ## Install
-Install DPLOY and it's dependancies globally by running:
 
+git clone into your global node_modules folder. To find its location run the following command :
 ```
-npm install dploy -g
+cd $(npm root -g)
 ```
+make symbolic link from global bin to ../lib/node_modules/dploy/bin/dploy
+```
+cd $(npm bin -g)
+ln -s dploy ../lib/node_modules/dploy/bin/dploy
+```
+
+
+
+[comment]: <> (Install DPLOY and it's dependancies globally by running:)
+
+[comment]: <> (```)
+
+[comment]: <> (npm install dploy -g)
+
+[comment]: <> (```)
 
 ## Help
 ```

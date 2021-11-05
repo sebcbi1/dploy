@@ -18,24 +18,21 @@
     "dploy": "./bin/dploy"
   },
   "engines": {
-    "node": ">= 0.10.x"
+    "node": ">= 12.20.x"
   },
   "dependencies": {
-    "colors": "~0.6.x",
-    "yamljs": "~0.1.x",
+    "colors": "~1.4.x",
+    "yamljs": "~0.3.x",
     "signals": "~1.0.x",
     "ftp": "~0.3.x",
-    "ssh2": "~0.2.x",
-    "minimatch": "~0.2.x",
-    "prompt": "~0.2.x",
-    "glob-expand": "0.0.2"
+    "ssh2": "~1.5.x",
+    "minimatch": "~3.0.x",
+    "prompt": "~1.2.x",
+    "glob-expand": "~0.2.x"
   },
   "devDependencies": {
     "grunt": "~0.4.x",
-    "grunt-contrib-coffee": "~0.7.x",
-    "grunt-contrib-watch": "~0.5.x",
     "grunt-bump": "~0.0.x",
-    "grunt-shell": "~0.6.x",
-    "grunt-coffeelint": "0.0.x"
+    "grunt-shell": "~0.6.x"
   }
 }
